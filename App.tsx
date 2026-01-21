@@ -18,6 +18,7 @@ import Footer from './components/Footer';
 import { Course, ViewType, SiteSettings } from './types';
 import { INITIAL_COURSES } from './constants';
 import { db, auth } from './firebase';
+
 import { doc, onSnapshot, setDoc, collection, writeBatch } from 'firebase/firestore';
 import { onAuthStateChanged, signOut } from 'firebase/auth';
 

@@ -4,15 +4,13 @@
  "private": true,
  "version": "0.1.0",
  "type": "module",
- 
-"scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "predeploy": "npm run build",  
-    "deploy": "main"
-  },
- 
+ "scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "predeploy": "npm run build",
+  "deploy": "main"
+ },
  "dependencies": {
   "clsx": "^2.1.1",
   "firebase": "^12.8.0",
